@@ -31,6 +31,7 @@ namespace CapturaImagen
             }
             capture.ImageGrabbed += CaptureImageGrabbed;
             capture.Start();
+            //
         }
 
         private void CaptureImageGrabbed(object sender, EventArgs e)
